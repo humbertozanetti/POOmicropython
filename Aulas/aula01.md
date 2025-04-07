@@ -72,7 +72,7 @@ Como no exemplo anterior:
 + Por que `self` é necessário? Se não usássemos `self`, o Python não saberia a qual instância valor pertence
 
 ## Criando uma classe com a abstração de um LED
-Vamos criar uma classe *Led* que abstrai as características e ações possíveis para uma Led **real**.  
+Vamos criar uma classe *Led* que abstrai as características e ações possíveis para um Led **real**.  
 + **Atributos**: pino em que recebe o sinal e o estado dele (ligado ou desligado)
 + **Métodos**: ações *ligar*, *desligar* e *mostrar_estado* (mostrar se está aceso ou apagado)
 
