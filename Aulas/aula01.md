@@ -61,7 +61,7 @@ p2 = Pessoa('Maro', 5)
 p2.apresentar()
 ````
 
-As características iniciais (*nome* e *idade*) são definidos pela **"função mágica"** (*magic function* ou *dunder method* - *double underscores*) chamada ***\_\_init\_\_()***. O nome *init* expressa muito bem a intenção da função: *quais são os valores inciais 
+As características iniciais (*nome* e *idade*) são definidos pela **"função mágica"** (*magic function* ou *dunder method* - *double underscores*) chamada ***\_\_init\_\_()***. O nome *init* expressa muito bem a intenção da função: **quais são os valores iniciais**.
 
 **IMPORTANTE:** Quando criamos uma classe e instanciamos um objeto, esse objeto possui seus próprios atributos e comportamentos. O `self` garante que cada instância da classe tenha seu próprio conjunto de dados.  
 
