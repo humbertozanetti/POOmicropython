@@ -14,7 +14,7 @@
 ## O que é POO (Programação Orientada a Objetos)?
 
 A Programação Orientada a Objetos (POO) é um **paradigma** de programação que se basea no projeto do código através de uma organização de **classes** e a utilização dessas classes por meio de **objetos**.  
-O  termo **objeto** vem de uma tentativa de modelar um software fazendo uma analogia com o **mundo real**, o mundo físico. Isso se apresenta como uma meia-verdade, pois em uma modelagem POO representamos também **conceitos abstratos**, como **conta bancária**, ** 
+O  termo **objeto** vem de uma tentativa de modelar um software fazendo uma analogia com o **mundo real**, o mundo físico. Isso se apresenta como uma meia-verdade, pois em uma modelagem POO representamos também **conceitos abstratos**, como **conta bancária** ou **relatório**.
 Esse paradigma é encontrado na maioria das linguagens e ainda hoje ainda é a maneira mais comum em projetos de software, inclusive sendo essencial para uso de bibliotecas e padrões de projetos.
 
 **O que são classes e objetos?**
@@ -118,7 +118,7 @@ print(led2.mostrar_estado())
 ## Implementando ações a partir de abstrações
 
 Vamos imaginar mais uma ação que possa ser feita com um Led. Uma ação muito rotineira é a troca de estado de um Led, de aceso para apagado e vice-versa.  
-Já que é uma ação comum, vamos implementar isso na classe, para poder usar sempre que for criado uma objeto Led.  
+Já que é uma ação comum, vamos implementar isso na classe, para poder usar sempre que for criado um objeto Led.  
 
 ````python
 from machine import Pin
